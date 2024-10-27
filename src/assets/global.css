@@ -1,0 +1,56 @@
+/* global.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Figtree', sans-serif;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url('../assets/FNF__Website_Background.jpg');
+    /* background-image: url('../assets/BackgroundTexture.jpg'); */
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: #4E3B31; /* Bootstrap primary color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Button Styles */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
