@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import Rules from '../views/Rules.vue';
-import CharacterCreator from '../views/CharacterCreator.vue';
-import Lore from '../views/Lore.vue';
-import ClassPage from '../views/ClassPage.vue';
+import Home from '../Views/Home.vue';
+import Rules from '../Views/Rules.vue';
+import CharacterCreator from '../Views/CharacterCreator.vue';
+import Lore from '../Views/Lore.vue';
+import ClassPage from '../Views/ClassPage.vue';
 
 const routes = [
   { path: '/', component: Home, meta: { title: 'Friends & Foes - Home' } },
