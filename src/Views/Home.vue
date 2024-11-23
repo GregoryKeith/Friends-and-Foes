@@ -11,7 +11,7 @@
     <p>This is a game of strategy and skill...</p> -->
 
     <div class="informationSplash">
-      <img src="/src/assets/FriendsAndFoesLogo.webp" alt="Friends and Foes Logo" />
+      <img src="/src/assets/fnf_cool_battle.jpg" alt="Friends and Foes Logo" />
 
       <div>
         <h2>Fast-Paced Fun for Every Gaming Night</h2>

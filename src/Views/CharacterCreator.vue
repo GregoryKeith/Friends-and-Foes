@@ -5,7 +5,7 @@
       <div class="classes">
       <div>
       <router-link :to="`/class/rogue`">Rogue
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_Rogue.webp" alt="placeholder" /></router-link>
       </div>
       <div>
       <router-link :to="`/class/ranger`">Ranger
