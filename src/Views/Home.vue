@@ -2,7 +2,7 @@
   <div>
     <div>
       <img
-        src="/src/assets/Created_Banner_image.webp"
+        src="/src/assets/Created_Banner_Image.webp"
         alt="Friends and Foes Banner"
         class="banner"
       />
