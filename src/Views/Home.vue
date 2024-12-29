@@ -1,11 +1,11 @@
 <template>
   <div>
     <div>
-      <img
+      <!-- <img
         src="/src/assets/Created_Banner_Image.webp"
         alt="Friends and Foes Banner"
         class="banner"
-      />
+      /> -->
     </div>
     <!-- <h1>Welcome to Friends and Foes</h1>
     <p>This is a game of strategy and skill...</p> -->
