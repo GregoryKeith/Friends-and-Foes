@@ -27,12 +27,14 @@
     <div>
       <h2>Abilities</h2>
       <select v-model="selectedAbility">
-        <option v-for="ability in availableAbilities" :key="ability" :value="ability">{{ ability }}</option>
+        <option v-for="ability in availableAbilities" :key="ability" :value="ability">{{ ability}} </option>
       </select>
       <button @click="addAbility">+</button>
       <div v-for="(ability, index) in selectedAbilities" :key="index">
+      <div class ="AbilityInformation">
         <span>{{ ability }}</span>
         <button @click="removeAbility(index)">Remove</button>
+        </div>
       </div>
     </div>
     <Stats :className="className" :stats="stats" />
@@ -59,21 +61,21 @@ export default {
     const selectedAbilities = ref([]);
 
     const styles = {
-      rogue: ['Weapon Expert', 'Frenzied', 'Sniper'],
-      ranger: ['Sniper', 'Dual Wield', 'Juggernaut'],
-      warrior: ['Juggernaut', 'Frenzied', 'Weapon Expert', 'Sentry', 'Sniper', 'Martial Artist'],
-      knight: ['Sentry', 'Juggernaut', 'Weapon Expert'],
-      wizard: ['Ranged Magic', 'Melee Magic'],
-      oracle: ['Juggernaut', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      rogue: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      ranger: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      warrior: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      knight: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      wizard: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
+      oracle: ['Weapon Expert', 'Frenzied', 'Sniper','Juggernaut', 'Sentry', 'Martial Artist', 'Ranged Magic', 'Melee Magic'],
     };
 
     const equipmentOptions = {
-      rogue: ['Light Armor', 'Mystic Wrap'],
-      ranger: ['Light Armor'],
-      warrior: ['Light Armor', 'Heavy Armor'],
-      knight: ['Heavy Armor'],
-      wizard: ['Mystic Wrap'],
-      oracle: ['Heavy Armor', 'Mystic Wrap'],
+      rogue: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
+      ranger: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
+      warrior: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
+      knight: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
+      wizard: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
+      oracle: ['Light Armor', 'Heavy Armor', 'Mystic Wrap'],
     };
 
     const abilities = {
@@ -207,7 +209,7 @@ calculatedStats.cost += selectedAbilities.value.reduce((totalCost, ability) => {
       'Sniper': '1 action +2 attack 1 damage Ranged Attack',
       'Martial Artist': '1 action +0 attack 1 damage Three Attacks',
       'Ranged Magic': '2 action +2 attack 1 damage Ranged, Magic',
-      'Breath Weapon': '2 action +0 attack 1 damage Area Effect, Magic',
+      'Melee Magic': '2 action +0 attack 1 damage Area Effect, Magic',
     };
 
     const selectedFightingStyleDescription = computed(() => {
@@ -316,6 +318,15 @@ button:disabled {
 
 .selected-abilities div span {
   font-size: 1.2rem;
+}
+
+.AbilityInformation {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* Subtle background color */
+  border-radius: 5px;
 }
 
 /* Responsive design */

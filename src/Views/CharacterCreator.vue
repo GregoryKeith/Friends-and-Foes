@@ -56,6 +56,10 @@
   gap: 10px; 
   margin: 0 auto;
 }
+.classes{
+  text-align: center;
+  
+}
 
 .classes div {
   margin: 0;
