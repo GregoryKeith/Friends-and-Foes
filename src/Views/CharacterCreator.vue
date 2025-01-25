@@ -9,23 +9,23 @@
       </div>
       <div>
       <router-link :to="`/class/ranger`">Ranger
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_ranger.jpg" alt="placeholder" /></router-link>
       </div>
       <div>
       <router-link :to="`/class/warrior`">Warrior
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_Warriors.webp" alt="placeholder" /></router-link>
       </div>
       <div>
       <router-link :to="`/class/knight`">Knight
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_Knights.webp" alt="placeholder" /></router-link>
       </div>
       <div>
       <router-link :to="`/class/wizard`">Wizard
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_Wizards.webp" alt="placeholder" /></router-link>
       </div>
       <div>
       <router-link :to="`/class/oracle`">Oracle
-      <img src="https://via.placeholder.com/150" alt="placeholder" /></router-link>
+      <img src="/src/assets/fnf_Oracles.webp" alt="placeholder" /></router-link>
       </div>
         
       </div>

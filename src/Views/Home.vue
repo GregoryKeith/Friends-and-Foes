@@ -29,12 +29,9 @@
         <h2>Multiplayer at the Core</h2>
         <p>
           In Friends and Foes, multiplayer isn’t just an optional feature—it’s at the very
-          heart of the game. Whether you’re battling in chaotic free-for-alls or
-          organizing strategic team showdowns, everyone gets to join the action. No need
+          heart of the game. With chaotic free-for-alls or team showdowns, everyone gets to join the action. No need
           to split into separate groups or wait your turn; Friends and Foes is designed to
-          bring everyone together for an immersive, shared experience. The dynamic
-          multiplayer gameplay keeps every match fresh and unpredictable, making sure no
-          one is left on the sidelines.
+          bring everyone together for an immersive and shared experience. 
         </p>
       </div>
       <img src="/src/assets/Battle2.webp" />
